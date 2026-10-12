@@ -70,7 +70,7 @@ BibliotecaEscolar/
 └── README.md
 ```
 
-## 🧩 Arquitectura y funcionamiento
+##  Arquitectura y funcionamiento
 
 El proyecto utiliza una organización basada en el patrón **Modelo–Vista–Controlador (MVC)**, complementada con clases DAO para gestionar la persistencia de datos.
 
