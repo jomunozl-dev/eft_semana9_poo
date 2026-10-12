@@ -299,7 +299,6 @@ El proyecto aplica los siguientes conceptos:
 - **Colecciones:** utilización de `ArrayList` para almacenar resultados.
 - **Multihilos:** utilización de `Thread` y `Runnable` en operaciones de préstamos.
 - **Sincronización:** utilización de `synchronized` y transacciones JDBC para coordinar operaciones sobre préstamos.
-- 
 ---
 
 **Desarrollado por:** Jorge Muñoz León  
