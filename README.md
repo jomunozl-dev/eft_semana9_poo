@@ -2,7 +2,7 @@
 
 ### Sistema de Gestión de Biblioteca Escolar en Java
 
-Proyecto desarrollado para la asignatura **Fundamentos de Programación Orientada a Objetos II**, orientado a la administración de una biblioteca escolar mediante una aplicación de escritorio desarrollada en Java Swing y conectada a una base de datos Oracle Cloud.
+EFT **Desarrollo Orientado a Objetos II**, orientado a la administración de una biblioteca escolar mediante una aplicación de escritorio desarrollada en Java Swing y conectada a una base de datos Oracle Cloud.
 
 El sistema permite gestionar libros, categorías, estudiantes, préstamos y devoluciones, además de consultar reportes y controlar el acceso según el rol del usuario.
 
@@ -62,6 +62,9 @@ BibliotecaEscolar/
 │   └── principal/
 │       ├── CrearAdmin.java
 │       └── Main.java
+│
+├── database
+│        ├──Jorge_Munoz_EFT_Semana9_POO.sql
 │
 ├── pom.xml
 └── README.md
@@ -296,21 +299,7 @@ El proyecto aplica los siguientes conceptos:
 - **Colecciones:** utilización de `ArrayList` para almacenar resultados.
 - **Multihilos:** utilización de `Thread` y `Runnable` en operaciones de préstamos.
 - **Sincronización:** utilización de `synchronized` y transacciones JDBC para coordinar operaciones sobre préstamos.
-
-## 🔒 Seguridad
-
-El proyecto utiliza consultas parametrizadas mediante `PreparedStatement` para reducir riesgos de inyección SQL.
-
-Las contraseñas de usuarios se transforman mediante SHA-256 antes de almacenarse. Esta implementación es educativa; para un entorno de producción se recomienda utilizar un algoritmo específico para contraseñas, como Argon2id o bcrypt, y reforzar las validaciones de permisos.
-
-Las credenciales de Oracle Cloud y el Wallet deben mantenerse fuera del repositorio público.
-
-## 🎓 Contexto académico
-
-Proyecto desarrollado como parte de las actividades de **Fundamentos de Programación Orientada a Objetos II**, integrando programación orientada a objetos, interfaces gráficas, persistencia de datos y conectividad con Oracle Cloud.
-
-La implementación de Oracle Autonomous Database permite complementar los conocimientos adquiridos en la asignatura de Base de Datos mediante SQL Developer.
-
+- 
 ---
 
 **Desarrollado por:** Jorge Muñoz León  
