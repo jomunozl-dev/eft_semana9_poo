@@ -287,7 +287,7 @@ Al devolver un libro:
 
 El sistema considera un plazo de siete días para identificar préstamos atrasados.
 
-## 🧵 Programación orientada a objetos
+## ⚙️ Programación orientada a objetos
 
 El proyecto aplica los siguientes conceptos:
 
